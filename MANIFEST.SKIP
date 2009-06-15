@@ -1,3 +1,4 @@
+script/pack_win32.bat
 ^_build
 ^Build$
 ^blib
@@ -19,5 +20,5 @@ cover_db
 ^PLANS$
 ^\._.*$
 \.shipit
-^Catalyst-.*
+^HTTP-Proxy-Selective-.*
 \.git.*
