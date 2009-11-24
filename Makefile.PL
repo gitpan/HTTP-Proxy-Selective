@@ -1,9 +1,11 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use inc::Module::Install;
+use inc::Module::Install 0.91;
 
 all_from 'lib/HTTP/Proxy/Selective.pm';
+
+license 'mit';
 
 requires 'HTTP::Proxy' => 0.22;
 requires 'File::Slurp';
